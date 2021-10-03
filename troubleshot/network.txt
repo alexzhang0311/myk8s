@@ -1,0 +1,26 @@
+no cni:
+Failed to connect to 10.98.131.136 port 8080: No route to host
+
+/host/etc from cni-conf (rw)
+      /host/home from cni-bin2 (rw)
+      /host/opt from cni-bin (rw)
+      /lib/modules from lib-modules (rw)
+      /run/xtables.lock from xtables-lock (rw)
+      /var/run/secrets/kubernetes.io/serviceaccount from weave-net-token-csdtb (ro)
+
+
+
+
+no proxy:
+Failed to connect to 10.98.131.136 port 8080: Connection refused
+
+dns:
+
+
+kube-dns
+
+k8s-app=kube-dns
+k8s-app=core-dns
+
+
+Readiness probe failed: Get "http://:8181/ready": dial tcp :8181: connect: connection refused
